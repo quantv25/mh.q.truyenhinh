@@ -1,17 +1,18 @@
 {
   "meta": {
     "version": 1,
-    "updated_at": "2025-11-05T10:15:00+07:00",
-    "note": "Cấu hình ban đầu"
+    "updated_at": "2025-11-05T10:30:00+07:00",
+    "note": "Cấu hình cập nhật APK + logos"
   },
   "app": {
-    "latest_version_code": 120,
+    "latest_version_code": 124,
     "min_version_code": 110,
     "update": {
       "force": false,
-      "url_play_store": "",
-      "url_direct_apk": ""
+      "url_direct_apk": "https://github.com/quantv25/mh.q.truyenhinh/releases/download/v124/TruyenHinh-v124.apk",
+      "url_play_store": ""
     },
+    "changelog_url": "https://github.com/quantv25/mh.q.truyenhinh/releases/tag/v124",
     "maintenance": { "enabled": false, "message": "" }
   },
   "backend": {
@@ -24,15 +25,5 @@
       "47:B3:F8:86:EA:83:B0:2C:3F:E0:96:5F:E6:69:4B:4E:1F:1D:CC"
     ]
   },
-  "ads": {
-    "enabled": true,
-    "disable": { "until": null, "reason": "" },
-    "show_after": { "minutes_since_install": 10, "min_sessions": 3 },
-    "rollout": 1.0,
-    "banner": { "image_url": "", "target_url": "", "seconds": 3, "position": "bottom" },
-    "adfree_devices": [
-      "sha256:37365ea657209db61c3b777392ebe7ccbca16e208d09421f0bf0a7837d8ea4e2"
-    ],
-    "blocked_packages": []
-  }
+  "ads": { "enabled": true }
 }
