@@ -5,11 +5,11 @@
     "note": "Cấu hình cập nhật APK + logos"
   },
   "app": {
-    "latest_version_code": 124,
-    "min_version_code": 110,
+    "latest_version_code": 1.0,
+    "min_version_code": 251101,
     "update": {
       "force": false,
-      "url_direct_apk": "https://github.com/quantv25/mh.q.truyenhinh/releases/download/v124/TruyenHinh-v124.apk",
+      "url_direct_apk": "https://github.com/quantv25/mh.q.truyenhinh/releases/download/V1.0/TruyenHinh.apk",
       "url_play_store": ""
     },
     "changelog_url": "https://github.com/quantv25/mh.q.truyenhinh/releases/tag/v124",
