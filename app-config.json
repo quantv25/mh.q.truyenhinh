@@ -6,10 +6,10 @@
   },
   "app": {
     "latest_version_code": 1.0,
-    "min_version_code": 251101,
+    "min_version_code": 251010,
     "update": {
       "force": false,
-      "url_direct_apk": "https://github.com/quantv25/mh.q.truyenhinh/releases/download/V1.0/TruyenHinh.apk",
+      "url_direct_apk": "https://github.com/quantv25/mh.q.truyenhinh/releases/download/V1.0/Truyen_Hinh_V6.apk",
       "url_play_store": ""
     },
     "changelog_url": "https://github.com/quantv25/mh.q.truyenhinh/releases/tag/v124",
