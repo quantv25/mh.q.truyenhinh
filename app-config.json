@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "version": 1,
+    "updated_at": "2025-11-05T10:15:00+07:00",
+    "note": "Cấu hình ban đầu"
+  },
+  "app": {
+    "latest_version_code": 120,
+    "min_version_code": 110,
+    "update": {
+      "force": false,
+      "url_play_store": "",
+      "url_direct_apk": ""
+    },
+    "maintenance": { "enabled": false, "message": "" }
+  },
+  "backend": {
+    "base_api": "https://pachiatv-auth.vercel.app",
+    "verify_code_endpoint": "/api/verify-code",
+    "token_signer": "https://token-iptv.trinhquanhpv.workers.dev",
+    "logos_url": "https://raw.githubusercontent.com/quantv25/iptv-assets/refs/heads/main/logos.json",
+    "home_channels_url": "",
+    "cert_pins": [
+      "47:B3:F8:86:EA:83:B0:2C:3F:E0:96:5F:E6:69:4B:4E:1F:1D:CC"
+    ]
+  },
+  "ads": {
+    "enabled": true,
+    "disable": { "until": null, "reason": "" },
+    "show_after": { "minutes_since_install": 10, "min_sessions": 3 },
+    "rollout": 1.0,
+    "banner": { "image_url": "", "target_url": "", "seconds": 3, "position": "bottom" },
+    "adfree_devices": [
+      "sha256:37365ea657209db61c3b777392ebe7ccbca16e208d09421f0bf0a7837d8ea4e2"
+    ],
+    "blocked_packages": []
+  }
+}
